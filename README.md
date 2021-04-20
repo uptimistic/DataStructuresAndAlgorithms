@@ -6,7 +6,7 @@ Resources/References Used :
 3. Algorithm Design Manual 
 4. Al Awagart python cheat sheet 
 5. [Official Python Tutorial](https://docs.python.org/3/tutorial/index.html)
-6. Cracking the Coding Interview 
+6. Cracking the Coding Interview Part VI, Part IX( Chapters 1-4,7-8,10,16)
 7. [GeekforGeeks company specific preparations](https://www.geeksforgeeks.org/company-preparation/)
 8. Hackerank
 9. Leetcode
