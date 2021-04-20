@@ -10,5 +10,7 @@ Resources/References Used :
 7. [GeekforGeeks company specific preparations](https://www.geeksforgeeks.org/company-preparation/)
 8. Hackerank
 9. Leetcode
+10. [Learn X in Y minutes for quick refresher](https://learnxinyminutes.com/docs/python/ )
+11. [Python Cheatsheet](https://www.pythoncheatsheet.org/about/)
 
 
