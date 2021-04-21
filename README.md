@@ -4,13 +4,12 @@ Documentation of Data Sstrcutures and Algorithms Implemented in Python:
 Resources/References Used :
 1. [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html)
 3. Algorithm Design Manual 
-4. Al Awagart python cheat sheet 
-5. [Official Python Tutorial](https://docs.python.org/3/tutorial/index.html)
-6. Cracking the Coding Interview Part VI, Part IX( Chapters 1-4,7-8,10,16)
-7. [GeekforGeeks company specific preparations](https://www.geeksforgeeks.org/company-preparation/)
-8. Hackerank
-9. Leetcode
-10. [Learn X in Y minutes for quick refresher](https://learnxinyminutes.com/docs/python/ )
-11. [Python Cheatsheet](https://www.pythoncheatsheet.org/about/)
+4. [CLRS Intro to Algorithms, MIT Press ](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf)
+5. [Al Swwagart python cheat sheet](https://www.pythoncheatsheet.org/)
+6. [Official Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+7. Cracking the Coding Interview Part VI, Part IX( Chapters 1-4,7-8,10,16)
+8. [GeekforGeeks company specific preparations](https://www.geeksforgeeks.org/company-preparation/)
+9. Hackerank
+10. Leetcode
 
 
