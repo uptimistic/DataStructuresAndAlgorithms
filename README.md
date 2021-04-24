@@ -3,7 +3,7 @@ Documentation of Data Sstrcutures and Algorithms Implemented in Python:
 
 Resources/References Used :
 1. [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html)
-2.[Practical Algorithms and Data Structures](https://bradfieldcs.com/algos/)
+2. [Practical Algorithms and Data Structures](https://bradfieldcs.com/algos/)
 3. Algorithm Design Manual 
 4. [CLRS Intro to Algorithms, MIT Press ](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf)
 5. [Al Swwagart python cheat sheet](https://www.pythoncheatsheet.org/)
