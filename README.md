@@ -21,5 +21,6 @@ Resources/References Used :
 13. [Data Structures and Algorithms with Python- Kent Lee](https://github.com/priscilj/Hadoop-related-books/blob/master/Data%20Structures%20and%20Algorithms%20with%20Python%20By%20Kent%20D.%20Lee%2C%20Steve%20Hubbard%202015%20Springer.pdf)
 14. [Data Structure & Algorithms Visualizations- VisuAlgo](https://visualgo.net/en)
 15. [Data Structure & Algorithms Visualizations- usfca.edu](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+16. [[Data Structure & Algorithms- Goodrich](http://index-of.es/Varios-2/Data%20Structures%20and%20Algorithms%20in%20Python.pdf)
 
 ***************************************************************************************************************
