@@ -8,7 +8,7 @@ Resources/References Used :
 4. [CLRS Intro to Algorithms, MIT Press ](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf)
 5. [Al Swwagart python cheat sheet](https://www.pythoncheatsheet.org/)
 6. [Official Python Tutorial](https://docs.python.org/3/tutorial/index.html)
-7. Cracking the Coding Interview Part VI, Part IX( Chapters 1-4,7-8,10,16)
+7. [Cracking the Coding Interview Part VI, Part IX( Chapters 1-4,7-8,10,16)](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:609efe13-dcab-4cbd-a304-d976e45a5e8c)
 8. [GeekforGeeks company specific preparations](https://www.geeksforgeeks.org/company-preparation/)
 9. [Hackerank](https://www.hackerrank.com/dashboard)
 
@@ -25,3 +25,11 @@ Resources/References Used :
 17. [VISUALIZE CODE RUN-pythontutor ](http://pythontutor.com/visualize.html#mode=edit)
 
 ***************************************************************************************************************
+
+
+concatenation	+	Combine sequences together	
+indexing	[ ]	Access an element of a sequence	
+length	len	Ask the number of items in the sequence	
+membership	in	Ask whether an item is in a sequence	
+repetition	*	Concatenate a repeated number of times	
+slicing	[ : ]	Extract a part of a sequence	
