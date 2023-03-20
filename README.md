@@ -59,7 +59,7 @@ def two_sum(nums, target):
 
 ```
 ---
-```
+```python
 def two_sum(nums, target):
     """
     Given an array of integers, return indices of the two numbers such that they add up to a specific target.
@@ -74,6 +74,58 @@ def two_sum(nums, target):
         if complement in num_map:
             return [num_map[complement], i]
         num_map[num] = i
+    return []
+
+```
+---
+This function takes a list of integers ```nums``` and a target integer ```target``` as input, and returns a pair of indices of numbers in the list that sum to the target, if such a pair exists. If no such pair exists, it returns ```None```.
+
+The algorithm works by iterating through the list of numbers and storing the indices of the numbers we've seen so far in a dictionary. For each number, we calculate its complement (i.e., the number we need to add to it to get the target). If we've seen the complement before (i.e., it's in the dictionary), we've found a pair that sums to the target and we return the indices of the two numbers. If we haven't seen the complement before, we store the current number and its index in the dictionary and continue iterating. If we've iterated through the entire list and haven't found a pair that sums to the target, we return ```None```.
+```python
+def twoSum(nums, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
+    """
+    # Create a dictionary to store the indices of the numbers we've seen so far
+    seen = {}
+    
+    # Iterate through the list of numbers
+    for i in range(len(nums)):
+        
+        # Calculate the complement of the current number
+        complement = target - nums[i]
+        
+        # If we've seen the complement before, we've found a pair that sums to the target
+        if complement in seen:
+            return [seen[complement], i]
+        
+        # Otherwise, store the current number and its index in the dictionary
+        seen[nums[i]] = i
+    
+    # If we've iterated through the entire list and haven't found a pair that sums to the target, return None
+    return None
+
+```
+---
+The function takes in an array ```nums``` and a target number ```target```, and returns a list of two indices of the numbers in ```nums``` that add up to ```target```. If no such pair of numbers exists, it returns an empty list.
+
+The time complexity of this implementation is O(n), where n is the length of the input array ```nums```. This is because we only loop through the array once, and the dictionary lookup operation takes O(1) time on average.
+```python
+def two_sum(nums, target):
+    # Create a dictionary to store the complement of each number and its index
+    complement_dict = {}
+    # Loop through the array
+    for i in range(len(nums)):
+        # Check if the complement of the current number exists in the dictionary
+        if nums[i] in complement_dict:
+            # If it does, return the indices of the two numbers that add up to the target
+            return [complement_dict[nums[i]], i]
+        else:
+            # If it doesn't, add the complement of the current number and its index to the dictionary
+            complement_dict[target - nums[i]] = i
+    # If no solution is found, return an empty list
     return []
 
 ```
