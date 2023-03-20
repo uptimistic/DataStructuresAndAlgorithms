@@ -26,10 +26,37 @@ Resources/References Used :
 
 ***************************************************************************************************************
 
+----
+ALGORITHM IMPLEMENTATION 
+---
+1. Two Sum
+```python
+def two_sum(nums, target):
+    """
+    Given an array of integers 'nums' and an integer 'target', 
+    return indices of the two numbers such that they add up to 'target'.
 
-concatenation	+	Combine sequences together	
-indexing	[ ]	Access an element of a sequence	
-length	len	Ask the number of items in the sequence	
-membership	in	Ask whether an item is in a sequence	
-repetition	*	Concatenate a repeated number of times	
-slicing	[ : ]	Extract a part of a sequence	
+    Example:
+    nums = [2, 7, 11, 15], target = 9
+    Output: [0, 1] (because nums[0] + nums[1] = 2 + 7 = 9)
+    """
+
+    # Create a dictionary to store each number in 'nums' as the key and its index as the value
+    num_dict = {}
+
+    # Iterate through 'nums'
+    for i in range(len(nums)):
+        # Check if 'target' minus the current number is already in the dictionary
+        complement = target - nums[i]
+        if complement in num_dict:
+            # If so, return the current index and the index of the complement
+            return [num_dict[complement], i]
+        # If not, add the current number and its index to the dictionary
+        num_dict[nums[i]] = i
+
+    # If no solution is found, return an empty list
+    return []
+
+```
+---
+
