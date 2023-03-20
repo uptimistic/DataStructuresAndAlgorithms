@@ -130,3 +130,25 @@ def two_sum(nums, target):
 
 ```
 ---
+The Two Sum problem on LeetCode is a classic algorithmic problem that asks the following:
+
+Given an array of integers ```nums``` and an integer ```target```, return indices of the two numbers such that they add up to ```target```.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Here's the Python code to solve the Two Sum problem on LeetCode:
+
+This solution uses a hash map to store the indices of the numbers as we iterate through the array. We calculate the complement of each number with respect to the target and check if it's already in the hash map. If it is, we return the indices of the two numbers that add up to the target. If not, we add the current number and its index to the hash map and continue iterating. The time complexity of this solution is O(n), where n is the length of the array
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hash_map = {}
+        for i, num in enumerate(nums):
+            complement = target - num
+            if complement in hash_map:
+                return [hash_map[complement], i]
+            hash_map[num] = i
+
+```
+
+---
