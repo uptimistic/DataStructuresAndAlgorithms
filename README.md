@@ -81,6 +81,22 @@ def two_sum(nums, target):
 This function takes a list of integers ```nums``` and a target integer ```target``` as input, and returns a pair of indices of numbers in the list that sum to the target, if such a pair exists. If no such pair exists, it returns ```None```.
 
 The algorithm works by iterating through the list of numbers and storing the indices of the numbers we've seen so far in a dictionary. For each number, we calculate its complement (i.e., the number we need to add to it to get the target). If we've seen the complement before (i.e., it's in the dictionary), we've found a pair that sums to the target and we return the indices of the two numbers. If we haven't seen the complement before, we store the current number and its index in the dictionary and continue iterating. If we've iterated through the entire list and haven't found a pair that sums to the target, we return ```None```.
+
+Example 1:
+
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+Example 2:
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+
+Example 3:
+Input: nums = [3,3], target = 6
+Output: [0,1]
+
 ```python
 def twoSum(nums, target):
     """
