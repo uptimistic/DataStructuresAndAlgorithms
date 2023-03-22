@@ -168,11 +168,9 @@ class Solution:
 ```
 
 ---
-Own Implementation ased on combined understanding of the above solution iterations
+Original Implementation ased on combined understanding of the above solution iterations
 ```python
-class Solution:
-    def twoSum(self, nums: givenList[int], target: int) -> List[int]:
-
+def twoSum(givenList, target):
         #This extract comes from the problem statement 
 
         """
@@ -194,21 +192,18 @@ class Solution:
 
             complement = target - listItem
 
-            if complement in twoSumIndex:
+            if complement in twoSumDict:
 
-                return [twoSumIndex[complement],listIndex]
+                return [twoSumDict[complement],listIndex]
 
-             else:
-                 twoSumDict[listItem]=listIndex
+            else:
+                 
+                twoSumDict[listItem]=listIndex
 
         return None # if the iteration condition above doesnt yield naything
-
-
-
-
-
-
-
-
+givenList = [2,7,11,15]
+target = 9
+        
+print(twoSum(givenList,target))  
 ```
 ---
