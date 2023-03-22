@@ -168,3 +168,47 @@ class Solution:
 ```
 
 ---
+Own Implementation ased on combined understanding of the above solution iterations
+```python
+class Solution:
+    def twoSum(self, nums: givenList[int], target: int) -> List[int]:
+
+        #This extract comes from the problem statement 
+
+        """
+        This extract comes from the problem statement 
+        sample list to work on given in the problem 
+        Input: nums = [2,7,11,15], target = 9
+        Output: [0,1]
+        Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+        """
+
+        # start with an empty dictionary bucket { } - this uses the idea of 
+        twoSumDict = { }
+
+        # generate a key value pair for the item in the list(same as for index in range len(givenList))
+        for listIndex, listItem in enumerate(givenList):
+
+            #find complement for each iteration in the twoSumDict and if complement is absent,
+            # store the iteration vaue as a key and its index as a value 
+
+            complement = target - listItem
+
+            if complement in twoSumIndex:
+
+                return [twoSumIndex[complement],listIndex]
+
+             else:
+                 twoSumDict[listItem]=listIndex
+
+        return None # if the iteration condition above doesnt yield naything
+
+
+
+
+
+
+
+
+```
+---
