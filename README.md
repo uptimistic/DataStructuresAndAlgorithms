@@ -168,7 +168,7 @@ class Solution:
 ```
 
 ---
-Original Implementation ased on combined understanding of the above solution iterations
+Original Implementation based on combined understanding of the above solution iterations
 ```python
 def twoSum(givenList, target):
         #This extract comes from the problem statement 
