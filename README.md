@@ -224,6 +224,24 @@ print(twoSum(givenList,target))
 
 ```
 ---
+217. Contains Duplicate
+
+---
+```python
+def containsDuplicate(nums):
+    """
+    :type nums: List[int]
+    :rtype: bool
+    """
+    # create a set of the given list
+    nums_set = set(nums)
+    
+    # check if the length of the set is less than the length of the list
+    # this means there are duplicate elements
+    return len(nums_set) != len(nums)
+
+```
+---
 169. Majority Element
 ---
 ```python
