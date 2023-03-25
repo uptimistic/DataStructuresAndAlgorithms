@@ -207,3 +207,23 @@ target = 9
 print(twoSum(givenList,target))  
 ```
 ---
+169. Majority Element
+---
+```python
+
+
+
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        freq_map = {}
+        for num in nums:
+            if num not in freq_map:
+                freq_map[num] = 0
+            freq_map[num] += 1
+            
+        for num, freq in freq_map.items():
+            if freq > len(nums) // 2:
+                return num
+
+```
+---
